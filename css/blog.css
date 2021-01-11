@@ -1,0 +1,24 @@
+.content {
+    margin: 10rem auto 10rem;
+    width: 100%;
+    max-width: 800px;
+}
+.content-head {
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+.content-img{
+    margin: 3rem 0;
+}
+.content-img .img-full {
+    height: 200px;
+    overflow: hidden;
+}
+.content-img .img-source {
+    font-size: 0.75rem;
+}
+.content-body p {
+    text-align: justify;
+}
