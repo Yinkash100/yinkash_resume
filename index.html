@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700"
       rel="stylesheet"
     />
+    <base href="index.html">
   </head>
   <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
     <nav
@@ -42,10 +43,10 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#section-home">Home</a>
+              <a href="#section-home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-portfolio">Portfolio</a>
+              <a href="#section-portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-resume">Resume</a>
@@ -54,7 +55,7 @@
               <a class="nav-link" href="#section-about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section-blog">Contact</a>
+              <a class="nav-link" href="#section-blog">Blog</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-contact">Contact</a>
@@ -511,7 +512,7 @@
             <div class="section-heading text-center">
               <h2>Recent Blog</h2>
             </div>
-            <div class="col-md-12 blogs">
+            <div class="col-md-12 blogs d-flex">
               <div class="blog">
                 <div class="blog-image">
                   <img src="./images/blog/3p.jpg" alt="">
@@ -520,6 +521,19 @@
                   <a href="./blog/city-transport-pmr.html">
                     <div class="blog-main__head text-white">
                       CITY TRANSPORT: discomfort and abnormality
+                      <div class="blog-main__head--btn">Read More</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="blog">
+                <div class="blog-image">
+                  <img src="./images/blog/congested-lagos-traffic.jpg" alt="">
+                </div>
+                <div class="blog-main">
+                  <a href="./blog/tranxit-the-innovative-solution-to-traffic-congestion.html">
+                    <div class="blog-main__head text-white">
+                      Tranxit - Details of a practical design thinking approach in providing innovative solution.
                       <div class="blog-main__head--btn">Read More</div>
                     </div>
                   </a>
